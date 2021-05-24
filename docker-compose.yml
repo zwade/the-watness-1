@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  watness:
+    image: watness
+    ports:
+      - "7744:7744"
+    environment:
+      "FLAG": "pctf{what_if_i_made_firmament_instead}"
+      "SERVER_SECRET": "I9dgpS6&uoD8#u6"

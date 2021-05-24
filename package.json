@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"workspaces": [
+		"client",
+		"common",
+		"server",
+		"wasm"
+	]
+}
